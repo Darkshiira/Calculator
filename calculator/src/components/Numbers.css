@@ -1,0 +1,36 @@
+.operatingBox {
+    width: 12rem;
+    height: 12rem;
+   display:flex;
+    background-color: cornflowerblue;
+    border:rgb(14, 14, 143) 1px solid;
+}
+
+.numbersquare {
+    height: 12rem;
+    width: 9rem;
+    /* border:rgb(14, 14, 143) 1px solid; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+}
+
+.solutionBox {
+    width: 12rem;
+    height: 3rem;
+    border:rgb(14, 14, 143) 1px solid;
+}
+
+.operatorsBox {
+    display:flex;
+    flex-direction:column;
+}
+
+button {  
+
+border: 1px solid navy;
+background-color: rgb(14, 14, 143);
+color: white;
+width: 3rem;
+height: 3rem;
+}
