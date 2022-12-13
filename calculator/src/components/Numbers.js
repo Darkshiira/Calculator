@@ -32,7 +32,7 @@ const Numbers = () => {
     }
 
   return (
-    <>
+    <div className="calc">
     <div className="solutionBox">
         <p>{currentnumber}</p>
     </div>
@@ -48,10 +48,10 @@ const Numbers = () => {
     <div className="operatorsBox">
     {state.map((state, index) =>
         <button key={index} onClick={() => operatingFunction(state)}>{state}</button>)}
+    </div>
+    </div>
+    </div>
     
-    </div>
-    </div>
-    </>
   )
 }
 
