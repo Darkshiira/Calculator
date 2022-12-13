@@ -1,0 +1,66 @@
+.time {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 25rem;
+    height: 30rem;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.clock {
+width: 10rem;
+height: 10rem;
+background-color: orangered;
+border-radius: 50%;
+position:absolute;
+top: 50%;
+left: 30%;
+}
+
+.clockNumber {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #333;
+}
+
+.hour-hand {
+    position: absolute;
+    top:1rem;
+    left: 5rem;
+    width: 0.25rem;
+    height: 4rem;
+    background-color: #333;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+    animation: hour 3600s infinite linear;
+}
+
+.minute-hand {
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    width: 0.25rem;
+    height: 5rem;
+    background-color: #333;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+    animation: minute 60s infinite linear;
+}
+
+.second-hand {
+    position: absolute;
+    top: -1rem;
+    left: 5rem;
+    width: 0.25rem;
+    height: 6rem;
+    background-color: #333;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+    animation: second 1s infinite linear;
+}
