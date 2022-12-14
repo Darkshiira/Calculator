@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 import './Clock.css';
 import ReactCurvedText from "react-curved-text";
 
@@ -9,21 +9,18 @@ const Clock = () => {
 
     const [time, setTime] = useState(currentTime);
 
-    useEffect(() => {
+ 
         setInterval(() => {
             currentTime = new Date().toLocaleTimeString();
             setTime(currentTime);
         }, 1000);
-    }, []);
+
 
     return (
         <>
         <div className="time">
             <h1>Time</h1>
-            <p>{time}</p>
-
-
-            
+            <p className="timeShow">{time}</p>
             <div className="numbers" >
                 <ReactCurvedText className="clockNumber"
                 width={1400}
@@ -52,7 +49,8 @@ const Clock = () => {
 
                     
                 </div>
-        </div>
+                </div>
+
         </>
     )
 }

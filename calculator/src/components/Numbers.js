@@ -33,6 +33,7 @@ const Numbers = () => {
 
   return (
     <div className="calc">
+        <h1>Calculator</h1>
     <div className="solutionBox">
         <p>{currentnumber}</p>
     </div>
