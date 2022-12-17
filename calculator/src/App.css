@@ -1,9 +1,15 @@
 body {
   background-color: #282c34;
+
 }
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex: start;
+  align-items: center;
+  flex-wrap:wrap;
   
 }
 

@@ -1,12 +1,9 @@
 .timer {
-    position: absolute;
-    top: 5%;
-    left: 40%;
     background-color: black;
     width: 15rem;
     height: 15rem;
     box-shadow: 0 0 10px #000;
-
+    margin: 1rem auto;
 }
 
 .timerButtons {

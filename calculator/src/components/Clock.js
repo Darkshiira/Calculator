@@ -19,7 +19,7 @@ const Clock = () => {
     return (
         <>
         <div className="time">
-            <h1>Time</h1>
+            <h1>Clock</h1>
             <p className="timeShow">{time}</p>
             <div className="numbers" >
                 <ReactCurvedText className="clockNumber"

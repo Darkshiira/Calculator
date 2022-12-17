@@ -1,0 +1,7 @@
+.WeatherApp {
+    border: 1px solid #333;
+    box-shadow: 0 0 5px #000;
+    width: 15rem;
+    margin: 1rem auto;
+    background-color: orangered;
+}
